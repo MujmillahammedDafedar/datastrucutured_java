@@ -1,0 +1,55 @@
+Module 1 Contact
+Hours
+Introduction: Data Structures, Classifications (Primitive & Non Primitive), Data structure
+Operations, Review of Arrays, Structures, Self-Referential Structures, and Unions. Pointers
+and Dynamic Memory Allocation Functions. Representation of Linear Arrays in Memory,
+Dynamically allocated arrays.
+Array Operations: Traversing, inserting, deleting, searching, and sorting. Multidimensional
+Arrays, Polynomials and Sparse Matrices.
+Strings: Basic Terminology, Storing, Operations and Pattern Matching algorithms.
+Programming Examples.
+Textbook 1: Chapter 1: 1.2, Chapter 2: 2.2 - 2.7 Text Textbook 2: Chapter 1: 1.1 - 1.4,
+Chapter 3: 3.1 - 3.3, 3.5, 3.7, Ch apter 4: 4.1 - 4.9, 4.14 Reference 3: Chapter 1: 1.4
+RBT: L1, L2, L3
+10
+Module 2
+Stacks: Definition, Stack Operations, Array Representation of Stacks, Stacks using Dynamic
+Arrays, Stack Applications: Polish notation, Infix to postfix conversion, evaluation of postfix
+expression.
+Recursion - Factorial, GCD, Fibonacci Sequence, Tower of Hanoi, Ackerman's function.
+Queues: Definition, Array Representation, Queue Operations, Circular Queues, Circular
+queues using Dynamic arrays, Dequeues, Priority Queues, A Mazing Problem. Multiple
+Stacks and Queues. Programming Examples.
+Textbook 1: Chapter 3: 3.1 -3.7 Textbook 2: Chapter 6: 6.1 -6.3, 6.5, 6.7-6.10, 6.12, 6.13
+RBT: L1, L2, L3
+10
+Module 3
+Linked Lists: Definition, Representation of linked lists in Memory, Memory allocation;
+Garbage Collection. Linked list operations: Traversing, Searching, Insertion, and Deletion.
+Doubly Linked lists, Circular linked lists, and header linked lists. Linked Stacks and Queues.
+Applications of Linked lists – Polynomials, Sparse matrix representation. Programming
+Examples
+Textbook 1: Ch apter 4: 4.1 – 4.6, 4.8, Textbook 2: Ch apter 5: 5.1 – 5.10,
+RBT: L1, L2, L3
+10
+Module 4
+Trees: Terminology, Binary Trees, Properties of Binary trees, Array and linked
+Representation of Binary Trees, Binary Tree Traversals - Inorder, postorder, preorder;
+Additional Binary tree operations. Threaded binary trees, Binary Search Trees – Definition,
+Insertion, Deletion, Traversal, Searching, Application of Trees-Evaluation of Expression,
+Programming Examples
+10
+Textbook 1: Chapter 5: 5.1 –5.5, 5.7; Textbook 2: Chapter 7: 7.1 – 7.9
+RBT: L1, L2, L3
+Module 5
+Graphs: Definitions, Terminologies, Matrix and Adjacency List Representation Of Graphs,
+Elementary Graph operations, Traversal methods: Breadth First Search and Depth First
+Search.
+Sorting and Searching: Insertion Sort, Radix sort, Address Calculation Sort.
+Hashing: Hash Table organizations, Hashing Functions, Static and Dynamic Hashing.
+Files and Their Organization: Data Hierarchy, File Attributes, Text Files and Binary Files,
+Basic File Operations, File Organizations and Indexing
+Textbook 1: Chapter 6 : 6.1 –6.2, Chapter 7:7.2, Chapter 8 : 8.1-8.3
+Textbook 2: Chapter 8 : 8.1 – 8.7, Chapter 9 : 9.1-9.3, 9.7, 9.9
+Reference 2: Chapter 16 : 16.1 - 16.7
+RBT: L1, L2, L3
