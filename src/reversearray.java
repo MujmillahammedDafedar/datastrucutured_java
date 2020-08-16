@@ -7,7 +7,7 @@ public class reversearray {
         int size = s.nextInt();
         int[] yourArray = new int[size];
 
-        int a[] =;
+        int a[] = new int[4];
         int[] b = new int[a.length];
         int j = a.length;
 
