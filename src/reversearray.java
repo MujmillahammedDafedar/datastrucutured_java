@@ -1,24 +1,62 @@
-import java.util.Scanner;
+import java.io.*;
+import java.math.*;
+import java.security.*;
+import java.text.*;
+import java.util.*;
+import java.util.concurrent.*;
+import java.util.regex.*;
 
 public class reversearray {
-    public  static void main(String args[]){
-        Scanner s = new Scanner(System.in);
-        System.out.print("Enter the array size: ");
-        int size = s.nextInt();
-        int[] yourArray = new int[size];
 
-        int a[] = new int[4];
-        int[] b = new int[a.length];
+    // Complete the reverseArray function below.
+    static int[] reverseArray(int[] a) {
         int j = a.length;
+        int [] array = new int[a.length];
+        System.out.println(j);
+        for (int i=0; i<a.length ; i++){
+              j--;
+             array [i] = a [j];
+            System.out.println(j);
 
-        for (int i = 0; i < a.length; i++) {
-            b[j - 1] = a[i];
-            j = j - 1;
+
         }
-        for(int k = 0; k < b.length; k++){
-            System.out.println(b[k]);
+        System.out.println(array);
+        return array;
+
+    }
+
+    private static final Scanner scanner = new Scanner(System.in);
+
+    public static void main(String[] args) throws IOException {
+        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
+
+        int arrCount = scanner.nextInt();
+        scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
+
+        int[] arr = new int[arrCount];
+
+        String[] arrItems = scanner.nextLine().split(" ");
+        scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
+
+        for (int i = 0; i < arrCount; i++) {
+            int arrItem = Integer.parseInt(arrItems[i]);
+            arr[i] = arrItem;
         }
 
+        int[] res = reverseArray(arr);
 
+        for (int i = 0; i < res.length; i++) {
+            bufferedWriter.write(String.valueOf(res[i]));
+
+            if (i != res.length - 1) {
+                bufferedWriter.write(" ");
+            }
+        }
+
+        bufferedWriter.newLine();
+
+        bufferedWriter.close();
+
+        scanner.close();
     }
 }
